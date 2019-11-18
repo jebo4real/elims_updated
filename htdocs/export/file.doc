@@ -1,0 +1,96 @@
+<img src='C:\Users\Jebo\Downloads\Compressed\eLIMS_Updated\eLIMS_Updated\htdocs\logos\logo_1.jpg' height='140' width='140' />
+
+
+
+
+<br><br>
+
+<h3 align="">Patient Report</h3>
+
+<h4 align="">Patient Report</h4>
+
+
+
+<br>Date: 17-10-2019<br>
+
+
+<br>
+
+
+	<div id="printhead" name="printhead"> </div>
+
+
+<table class="print_entry_border tblborder">
+		<tbody>
+		<tr valign="top">                    <td class="heading ">Patient ID</td>
+                    <td>
+                    	AD384519                    </td><td width="15px" style="border:none"></td>
+					</tr><tr valign="top"></tr><tr valign="top"></tr><tr valign="top">                    <td class="heading ">Patient Number</td>
+                    <td>
+                    	-                    </td><td width="15px" style="border:none"></td>
+					</tr><tr valign="top"></tr><tr valign="top">                    <td class="heading ">Gender</td>
+                    <td>
+                    	F                    </td><td width="15px" style="border:none"></td>
+					</tr><tr valign="top">                    <td class="heading ">Age</td>
+                    <td>
+                    	27 Years                    </td><td width="15px" style="border:none"></td>
+					</tr><tr valign="top"></tr><tr valign="top">                    <td class="heading ">Name</td>
+                    <td>
+                    	Marie B. Koroma                    </td><td width="15px" style="border:none"></td>
+					</tr><tr valign="top"></tr><tr valign="top"></tr><tr valign="top"></tr><tr valign="top"></tr><tr valign="top"></tr><tr valign="top"></tr><tr valign="top"></tr><tr valign="top"></tr><tr valign="top"></tr><tr valign="top"></tr><tr valign="top"></tr><tr valign="top">			</tr><tr valign="top">
+			<td class="heading">Physician</td>
+			<td></td>
+		</tr>
+			</tbody>
+</table>
+<br>
+	<span style="font-weight:bold">Tests</span>
+	<br>
+	Not Found
+<div class="editable" title="Click to Edit">
+
+</div>
+
+<div class="editable" title="Click to Edit">
+
+</div>
+
+<div class="editable" title="Click to Edit">
+
+</div>
+
+<!--p class="main">
+
+............................................-->
+
+
+
+
+<table width="100%" border="0" class="no_border" "="">
+
+<tbody><tr>
+
+
+<td></td>
+
+
+</tr>
+
+<tr>
+
+
+<td align="center"></td>
+
+
+</tr>
+
+<tr>
+
+
+<td align="center"></td>
+
+
+</tr>
+
+</tbody></table>
+

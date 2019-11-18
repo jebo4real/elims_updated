@@ -1,0 +1,84 @@
+2019-09-15 17:50:25	ghana_dir	blis_revamp	SELECT  a.user_id, a.username, a.password,a.actualname, a.email, a.created_by, a.ts, a.lab_config_id, a.level, a.phone, a.lang_id, b.value as rwoptions 
+	FROM user a, user_config b  WHERE a.user_id = b.user_id and b.parameter = 'rwoptions' and a.user_id=125 LIMIT 1
+2019-09-15 17:50:25	ghana_dir	blis_revamp	SELECT lab_config_id FROM lab_config_access where user_id = 125 LIMIT 1
+2019-09-15 17:50:25	ghana_dir	blis_revamp	SELECT country FROM lab_config where lab_config_id = 1006 LIMIT 1
+2019-09-15 17:50:25	ghana_dir	blis_revamp	SELECT * FROM lab_config WHERE lab_config_id = 10111 LIMIT 1
+2019-09-15 17:50:25	ghana_dir	blis_revamp	SELECT * FROM lab_config WHERE lab_config_id = 10111 LIMIT 1
+2019-09-15 17:50:25	ghana_dir	blis_revamp	SELECT * FROM user WHERE level=17 and lab_config_id = 10111 LIMIT 1
+2019-09-15 17:50:25	ghana_dir	blis_revamp	SELECT * FROM lab_config WHERE lab_config_id = 10111 LIMIT 1
+2019-09-15 17:50:25	ghana_dir	blis_revamp	SELECT * FROM lab_config WHERE lab_config_id = 10111 LIMIT 1
+2019-09-15 17:50:25	ghana_dir	blis_revamp	SELECT * FROM lab_config WHERE lab_config_id = 10111 LIMIT 1
+2019-09-15 17:50:25	ghana_dir	blis_revamp	SELECT * FROM lab_config WHERE lab_config_id = 10111 LIMIT 1
+2019-09-15 17:50:25	ghana_dir	blis_revamp	SELECT * FROM lab_config WHERE lab_config_id = 10111 LIMIT 1
+2019-09-15 17:50:25	ghana_dir	blis_revamp	SELECT * FROM lab_config WHERE lab_config_id = 10111 LIMIT 1
+2019-09-15 17:52:09	ghana_dir	blis_revamp	SELECT  a.user_id, a.username, a.password,a.actualname, a.email, a.created_by, a.ts, a.lab_config_id, a.level, a.phone, a.lang_id, b.value as rwoptions 
+	FROM user a, user_config b  WHERE a.user_id = b.user_id and b.parameter = 'rwoptions' and a.username='ghana_dir' LIMIT 1
+2019-09-15 17:52:09	ghana_dir	blis_revamp	SELECT lab_config_id FROM lab_config_access where user_id = 125 LIMIT 1
+2019-09-15 17:52:09	ghana_dir	blis_revamp	SELECT country FROM lab_config where lab_config_id = 1006 LIMIT 1
+2019-09-15 17:52:09	ghana_dir	blis_revamp	SELECT  a.user_id, a.username, a.password,a.actualname, a.email, a.created_by, a.ts, a.lab_config_id, a.level, a.phone, a.lang_id, b.value as rwoptions 
+	FROM user a, user_config b  WHERE a.user_id = b.user_id and b.parameter = 'rwoptions' and a.user_id=125 LIMIT 1
+2019-09-15 17:52:09	ghana_dir	blis_revamp	SELECT lab_config_id FROM lab_config_access where user_id = 125 LIMIT 1
+2019-09-15 17:52:09	ghana_dir	blis_revamp	SELECT country FROM lab_config where lab_config_id = 1006 LIMIT 1
+2019-09-15 17:52:09	ghana_dir	blis_revamp	SELECT * from lab_config lc WHERE lc.lab_config_id IN ( SELECT lca.lab_config_id from lab_config_access lca WHERE lca.user_id=125 ) ORDER BY lc.name
+2019-09-15 17:52:09	ghana_dir	blis_revamp	SELECT  a.user_id, a.username, a.password,a.actualname, a.email, a.created_by, a.ts, a.lab_config_id, a.level, a.phone, a.lang_id, b.value as rwoptions 
+	FROM user a, user_config b  WHERE a.user_id = b.user_id and b.parameter = 'rwoptions' and a.user_id=125 LIMIT 1
+2019-09-15 17:52:09	ghana_dir	blis_revamp	SELECT lab_config_id FROM lab_config_access where user_id = 125 LIMIT 1
+2019-09-15 17:52:09	ghana_dir	blis_revamp	SELECT country FROM lab_config where lab_config_id = 1006 LIMIT 1
+2019-09-15 17:52:09	ghana_dir	blis_revamp	SELECT * FROM lab_config WHERE lab_config_id = 10111 LIMIT 1
+2019-09-15 17:52:09	ghana_dir	blis_revamp	SELECT * FROM lab_config WHERE lab_config_id = 10111 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT  a.user_id, a.username, a.password,a.actualname, a.email, a.created_by, a.ts, a.lab_config_id, a.level, a.phone, a.lang_id, b.value as rwoptions 
+	FROM user a, user_config b  WHERE a.user_id = b.user_id and b.parameter = 'rwoptions' and a.user_id=125 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT lab_config_id FROM lab_config_access where user_id = 125 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT country FROM lab_config where lab_config_id = 1006 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT  a.user_id, a.username, a.password,a.actualname, a.email, a.created_by, a.ts, a.lab_config_id, a.level, a.phone, a.lang_id, b.value as rwoptions 
+	FROM user a, user_config b  WHERE a.user_id = b.user_id and b.parameter = 'rwoptions' and a.user_id=125 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT lab_config_id FROM lab_config_access where user_id = 125 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT country FROM lab_config where lab_config_id = 1006 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT  a.user_id, a.username, a.password,a.actualname, a.email, a.created_by, a.ts, a.lab_config_id, a.level, a.phone, a.lang_id, b.value as rwoptions 
+	FROM user a, user_config b  WHERE a.user_id = b.user_id and b.parameter = 'rwoptions' and a.user_id=125 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT lab_config_id FROM lab_config_access where user_id = 125 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT country FROM lab_config where lab_config_id = 1006 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT * from lab_config lc WHERE lc.lab_config_id IN ( SELECT lca.lab_config_id from lab_config_access lca WHERE lca.user_id=125 ) ORDER BY lc.name
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT  a.user_id, a.username, a.password,a.actualname, a.email, a.created_by, a.ts, a.lab_config_id, a.level, a.phone, a.lang_id, b.value as rwoptions 
+	FROM user a, user_config b  WHERE a.user_id = b.user_id and b.parameter = 'rwoptions' and a.username='ghana_dir' LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT lab_config_id FROM lab_config_access where user_id = 125 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT country FROM lab_config where lab_config_id = 1006 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT  a.user_id, a.username, a.password,a.actualname, a.email, a.created_by, a.ts, a.lab_config_id, a.level, a.phone, a.lang_id, b.value as rwoptions 
+	FROM user a, user_config b  WHERE a.user_id = b.user_id and b.parameter = 'rwoptions' and a.user_id=125 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT lab_config_id FROM lab_config_access where user_id = 125 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT country FROM lab_config where lab_config_id = 1006 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT * from lab_config lc WHERE lc.lab_config_id IN ( SELECT lca.lab_config_id from lab_config_access lca WHERE lca.user_id=125 ) ORDER BY lc.name
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT  a.user_id, a.username, a.password,a.actualname, a.email, a.created_by, a.ts, a.lab_config_id, a.level, a.phone, a.lang_id, b.value as rwoptions 
+	FROM user a, user_config b  WHERE a.user_id = b.user_id and b.parameter = 'rwoptions' and a.user_id=125 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT lab_config_id FROM lab_config_access where user_id = 125 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT country FROM lab_config where lab_config_id = 1006 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT * from lab_config lc WHERE lc.lab_config_id IN ( SELECT lca.lab_config_id from lab_config_access lca WHERE lca.user_id=125 ) ORDER BY lc.name
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT distinct lab_config_id from import_log
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT * FROM lab_config WHERE lab_config_id = 1007 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT * FROM lab_config WHERE lab_config_id = 1011 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT * FROM lab_config WHERE lab_config_id = 1006 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT * FROM lab_config WHERE lab_config_id = 1012 LIMIT 1
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT username FROM user WHERE user_id=505
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT * from import_log where lab_config_id = 1007 ORDER BY ts DESC
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT username FROM user WHERE user_id=509
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT * from import_log where lab_config_id = 1011 ORDER BY ts DESC
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT username FROM user WHERE user_id=504
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT * from import_log where lab_config_id = 1006 ORDER BY ts DESC
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT username FROM user WHERE user_id=510
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT * from import_log where lab_config_id = 1012 ORDER BY ts DESC
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT username FROM user WHERE user_id=509
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT username FROM user WHERE user_id=504
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT username FROM user WHERE user_id=506
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT username FROM user WHERE user_id=510
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT username FROM user WHERE user_id=505
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT username FROM user WHERE user_id=508
+2019-09-15 17:52:12	ghana_dir	blis_revamp	SELECT username FROM user WHERE user_id=507
+2019-09-15 17:52:15	ghana_dir	blis_revamp	SELECT  a.user_id, a.username, a.password,a.actualname, a.email, a.created_by, a.ts, a.lab_config_id, a.level, a.phone, a.lang_id, b.value as rwoptions 
+	FROM user a, user_config b  WHERE a.user_id = b.user_id and b.parameter = 'rwoptions' and a.username='ghana_dir' LIMIT 1
+2019-09-15 17:52:15	ghana_dir	blis_revamp	SELECT lab_config_id FROM lab_config_access where user_id = 125 LIMIT 1
+2019-09-15 17:52:15	ghana_dir	blis_revamp	SELECT country FROM lab_config where lab_config_id = 1006 LIMIT 1
+2019-09-15 17:52:15	ghana_dir	blis_revamp	SELECT  a.user_id, a.username, a.password,a.actualname, a.email, a.created_by, a.ts, a.lab_config_id, a.level, a.phone, a.lang_id, b.value as rwoptions 
+	FROM user a, user_config b  WHERE a.user_id = b.user_id and b.parameter = 'rwoptions' and a.user_id=125 LIMIT 1
+2019-09-15 17:52:15	ghana_dir	blis_revamp	SELECT lab_config_id FROM lab_config_access where user_id = 125 LIMIT 1
+2019-09-15 17:52:15	ghana_dir	blis_revamp	SELECT country FROM lab_config where lab_config_id = 1006 LIMIT 1
+2019-09-15 17:52:15	ghana_dir	blis_revamp	SELECT * from lab_config lc WHERE lc.lab_config_id IN ( SELECT lca.lab_config_id from lab_config_access lca WHERE lca.user_id=125 ) ORDER BY lc.name

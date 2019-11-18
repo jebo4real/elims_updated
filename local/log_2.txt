@@ -1,0 +1,5 @@
+2019-09-10 20:44:44	makeni_admin	blis_revamp	SELECT * FROM lab_config WHERE lab_config_id = 2 LIMIT 1
+2019-09-10 20:44:52	makeni_admin	blis_revamp	SELECT  a.user_id, a.username, a.password,a.actualname, a.email, a.created_by, a.ts, a.lab_config_id, a.level, a.phone, a.lang_id, b.value as rwoptions 
+	FROM user a, user_config b  WHERE a.user_id = b.user_id and b.parameter = 'rwoptions' and a.user_id=505 LIMIT 1
+2019-09-10 20:44:52	makeni_admin	blis_revamp	SELECT lab_config_id FROM user WHERE user_id='505'
+2019-09-10 20:44:52	makeni_admin	blis_revamp	SELECT country FROM lab_config where lab_config_id = 1007 LIMIT 1
